@@ -1,0 +1,78 @@
+.followCard {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoUserName {
+  opacity: 0.6;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: 0.3s ease background-color;
+}
+.text {
+  display: block;
+}
+.button_is_following {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border: 1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button_is_following:hover {
+  background: rgb(255, 0, 0, 0.178);
+  color: red;
+  border: 1px solid red;
+  transition: 0.3s ease all;
+  opacity: 1;
+}
+.button_is_following:hover .text {
+  display: none;
+}
+.button_is_following:hover .stopFollow {
+  display: block;
+}
+
+.stopFollow {
+  display: none;
+}
