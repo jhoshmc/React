@@ -1,0 +1,10 @@
+.container {
+  width: auto;
+  height: auto;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  padding: 1cm;
+}
